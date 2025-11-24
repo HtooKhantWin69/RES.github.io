@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="core/css/stylesQUIZ.css">
+</head>
+<body>
+
+    <!-- NAV -->
+   <nav class="nvi">
+    <div> <ul>
+      <li><a href="Renewable energy.html">Home</a></li>
+      <li><a href="Lessons.html">Exercise</a></li>
+      <li><a href="#">Quiz</a></li>
+    </ul>
+  </div>
+  </nav>
+
+<div class="game-container">
+        <div class="game-card">
+            <header>
+                <h1>Choose the Correct Answer</h1>
+            </header>
+
+            <div class="game-content">
+                <div class="progress-bar">
+                    <div id="progress"></div>
+                </div>
+
+                <div class="question-container">
+                    <p id="category" class="category-text">Category: Energies </p>
+                    <h2 id="question">Which of the following is a renewable energy source?</h2>
+                </div>
+
+                <div class="answers-container">
+                    <button class="answer" data-id="1">Coal</button>
+                    <button class="answer" data-id="2">Natural Gas</button>
+                    <button class="answer" data-id="3">Solar Energy</button>
+                    <button class="answer" data-id="4">Oil</button>
+                </div>
+
+                <div class="status-bar">
+                    <p>Score: <span id="score">0</span></p>
+                    <p>High Score: <span id="high-score">0</span></p>
+                    <p>Time Left: <span id="time">120</span> seconds</p>
+                </div>
+
+                <button id="start" class="start-btn">Start Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="core/js/scriptQuiz.js"></script>
+
+</body>
+</html>

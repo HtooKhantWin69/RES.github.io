@@ -1,0 +1,130 @@
+
+/*   NAVIGATION BAR   */
+
+.nvi {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  position: sticky;
+  top:5px;
+  background-color:rgb(17, 16, 16); 
+  padding: 10px 0;
+  outline-style:groove;
+  outline-color:white;
+}
+h2 {
+  margin: 30px 0;
+}
+
+.nvi ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:center; 
+  gap: 60px;
+  position: sticky;
+  top:0px; 
+}
+
+.nvi a {
+  text-decoration:none;
+  color: whitesmoke;
+  font-weight: bold;
+  transition: color 0.2s ease;
+  font-size:medium;
+}
+.nvi a:hover {
+  color: rgb(116, 116, 145);
+}
+
+/* Text Css (paragraphs)*/
+
+p {
+font-family:sans-serif,arial;
+font-size: large;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+}
+
+h1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+  text-align:center;
+}
+
+
+/* Images */
+
+img {
+margin-left:20px;
+margin-right:20px;
+}
+
+
+/* Background.. acutally its the body, stfu nerd*/
+
+
+
+body {
+  background-image:url(img/premium_photo-1727730047398-49766e915c1d.jpeg);
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+}
+
+body h1{
+  font-family:Arial, Helvetica, sans-serif;
+  font-style:normal;
+  color:white;
+}
+
+
+/* TRUE FALSE */
+
+.container {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
+  background-color:rgb(255, 255, 255);
+  border-radius: 8px;
+  padding-top: 1px;
+
+}
+
+.result {
+  margin-top: 10px;
+ text-align:right;
+ margin-right:50px;
+}
+
+.button {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 10px;      
+    font-size: 1rem;         
+    border-radius: 8px;      
+    border: none;            
+    color: white;            
+    transition: 0.2s ease;   
+    margin-right:50px;
+}
+
+.question {
+  font-family:Arial, Helvetica, sans-serif;
+  font-style: normal;
+  margin-left: 30px;
+}
+
+#scoreDisplay{
+  font-family: Arial, Helvetica, sans-serif;
+  font-style:normal;
+  position:sticky;
+  bottom:10px;
+  background-color:rgb(74, 199, 80);
+  padding:5px;
+  border-radius: 5px;
+  text-align:center;
+}
